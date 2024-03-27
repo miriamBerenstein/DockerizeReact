@@ -1,3 +1,29 @@
+#wraper {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-evenly;
+}
+
+body{
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
+}
+
+.mytxt{
+  letter-spacing: 0.3px;
+  font-weight: 600;
+  line-height: 2vw;
+  word-spacing: 2px;
+  text-align: justify;
+  margin: 3vw;
+}
+
+#navigate {
+  display: flex;
+}
+
 .App {
   text-align: center;
 }
@@ -7,32 +33,3 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
